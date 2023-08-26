@@ -208,6 +208,7 @@ address {
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 528px;
+    height: 581px;
     border-radius: 4px;
     background: var(--white-color);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -258,7 +259,7 @@ address {
     letter-spacing: 0.6px;
 
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 .modal-form-group:not(:last-child){
     position: relative;
@@ -311,7 +312,7 @@ address {
     display: flex;
     align-items: center;
     margin-left: 12px;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
 }
 .custom-checkbox{
     display: flex;
@@ -356,15 +357,15 @@ address {
     letter-spacing: 0.42px;
     margin-right: 7px;
 }
-.form-policy-desc-link{
+.form-policy-desc-link {
     color: #2196F3;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
-text-decoration-line: underline;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
 }
 .modal-form-btn-send {
     width: 200px;
